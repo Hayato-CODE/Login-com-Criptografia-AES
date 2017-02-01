@@ -11,4 +11,4 @@ Login com Criptografia OpenSSL com AES
 - [x] cookie.php - [Arquivo](cookie.php)
 
 #### Colaboradores
-Criado por Hayato
+Criado por Hayato - [Twitter](https://twitter.com/joaopauloCODE)
