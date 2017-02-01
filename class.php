@@ -1,7 +1,7 @@
 <?php
 /* Caso não saiba PHP Orientado a Objeto não altere este arquivo ou altere por conta e risco */
 
-/* Criptografia AES Própria
+/* Criptografia AES Própria */
 class Crypt {
 	public function AES($data, $function){
 		$Config = new Config();
