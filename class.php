@@ -1,8 +1,7 @@
 <?php
-/*
-Caso não saiba PHP Orientado a Objeto não altere este arquivo ou altere por conta e risco
-*/
+/* Caso não saiba PHP Orientado a Objeto não altere este arquivo ou altere por conta e risco */
 
+/* Criptografia AES Própria
 class Crypt {
 	public function AES($data, $function){
 		$Config = new Config();
@@ -18,6 +17,7 @@ class Crypt {
 }
 $Crypt = new Crypt();
 
+/* Proteção contra Injeção SQL */
 class SQL {
 	public function Injection($data){
 		$data = addslashes($data);
