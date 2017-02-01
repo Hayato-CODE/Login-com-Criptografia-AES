@@ -6,11 +6,11 @@ Caso não saiba PHP Orientado a Objeto não altere este arquivo
 class Crypt {
 	public function AES($data, $function){
 		$Config = new Config();
-		if($function == TRUE){
+		if($function == true){
 			$data = bin2hex($data);
-			$return = openssl_encrypt($data, $Config->Crypt_Method, $Config->Crypt_Key, FALSE, $Config->Crypt_IV);
-		}elseif($function == FALSE){
-			$data = openssl_decrypt($data, $Config->Crypt_Method, $Config->Crypt_Key, FALSE, $Config->Crypt_IV);
+			$return = openssl_encrypt($data, $Config->Crypt_Method, $Config->Crypt_Key, false, $Config->Crypt_IV);
+		}elseif($function == false){
+			$data = openssl_decrypt($data, $Config->Crypt_Method, $Config->Crypt_Key, false, $Config->Crypt_IV);
 			$return = hex2bin($data);
 		}
 		return $return;
