@@ -1,6 +1,10 @@
 # Login-com-Criptografia-AES
 Login com Criptografia OpenSSL com AES
 
+## Cuidados a serem tomados
+Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para decodificar os dados.
+Modifique posteriormente somente por segurança.
+
 ## Adicione este código em seu Formulário HTML
 ```html
 <input type="hidden" name="inputFORM" value="LoginSQL">
