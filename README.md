@@ -10,7 +10,7 @@ Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para de
 ```
 
 ## Modo SSL e Non-SSL
-O script esta programado para setar cookie em _**SSL**_, então como faço pra colocar ele em Non-SSL, quando não tenho um `https://` no meu domínio?
+O script esta programado para setar cookie em _**SSL**_, então como faço pra colocar ele em _**Non-SSL**_, quando não tenho um `https://` no meu domínio?
 Simples, basta mudar o penúltimo valor da função `setcookie` para `0` no arquivo `login.php`.
 
 Modo SSL:
@@ -37,4 +37,4 @@ setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $
 Login-com-Criptografia-AES-0.17.201.zip ([Baixar](https://github.com/joaopauloCODE/Login-com-Criptografia-AES/releases/download/0.17.201/Login-com-Criptografia-AES-0.17.201.zip))
 
 ## Colaboradores
-Criado por Hayato ([Twitter](https://twitter.com/joaopauloCODE))
+Criado por **Hayato** ([Twitter](https://twitter.com/joaopauloCODE))
