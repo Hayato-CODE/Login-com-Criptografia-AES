@@ -7,8 +7,8 @@ if (mysqli_connect_errno()) {
 }
 if(isset($_POST)){
 	if($_POST['inputFORM'] === 'LoginSQL'){ // Insira o campo no seu formulário <input type="hidden" name="inputFORM" value="LoginSQL">
-		$Username = addslashes($_POST['username']);
-		$Password = addslashes($_POST['password']);
+		$Username = $SQL->Injection($_POST['username']);
+		$Password = $SQL->Injection($_POST['password']);
 		$Username_Query = 'SELECT * FROM login WHERE `username` LIKE `' . $Username . '` LIMIT 1';
 		$Username_Result = $mysqli->query($Username_Query);
 		$Username_Row = $Username_Result->fetch_array(MYSQLI_ASSOC);
