@@ -7,8 +7,8 @@ Login com Criptografia OpenSSL com AES
 ## Arquivo Gerais
 - [x] libraries/config.php [Arquivo](libraries/config.php)
 - [x] libraries/class.php [Arquivo](libraries/class.php)
-- [x] check_login.php [Arquivo](login.php)
-- [x] read_cookie.php [Arquivo](cookie.php)
+- [x] login.php [Arquivo](login.php)
+- [x] cookie.php [Arquivo](cookie.php)
 
 #### Colaboradores
 Criado por Hayato
