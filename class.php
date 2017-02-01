@@ -12,4 +12,16 @@ class Crypt {
 		return $return;
 	}
 }
-$Crypt = new Crypt();
+class SQL {
+	public function Injection($data){
+		$data_Array = array(
+			'SELECT' => '',
+			'UPDATE' => '',
+			'INSERT' => '',
+			'DROP' => ''
+		);
+		$return = str_replace(array_keys($data_Array), $data_Array, $data);
+		return $return;
+	}
+}
+$SQL = new SQL();
