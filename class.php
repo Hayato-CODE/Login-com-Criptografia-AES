@@ -1,6 +1,6 @@
 <?php
 /*
-Caso não saiba PHP Orientado a Objeto não altere este arquivo
+Caso não saiba PHP Orientado a Objeto não altere este arquivo ou altere por conta e risco
 */
 
 class Crypt {
