@@ -2,7 +2,7 @@
 Script de Login com Criptografia **OpenSSL** com **AES** e **Bin2Hex**
 
 ## Cuidados a serem tomados
-> Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para decodificar os dados, caso necessário modifique posteriormente somente por segurança.
+Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para decodificar os dados, caso necessário modifique posteriormente somente por segurança.
 
 ## Adicione este código em seu Formulário HTML
 ```html
