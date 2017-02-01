@@ -1,4 +1,8 @@
 <?php
+/*
+Caso não saiba PHP Orientado a Objeto não altere este arquivo
+*/
+
 class Crypt {
 	public function AES($data, $function){
 		$Config = new Config();
