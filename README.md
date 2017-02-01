@@ -11,11 +11,13 @@ O script esta programado para setar cookie em SSL, então como faço pra colocar
 Simples, basta mudar o penultimo valor da função `setcookie` para `0` no arquivo `login.php`.
 
 Modo SSL:
+
 ```php
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 1, 1);
 ```
 
 Modo Non-SSL:
+
 ```php
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 0, 1);
 ```
