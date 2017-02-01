@@ -16,6 +16,7 @@ $Crypt = new Crypt();
 
 class SQL {
 	public function Injection($data){
+		$data = addslashes($data);
 		$data_Array = array(
 			'SELECT' => '',
 			'UPDATE' => '',
