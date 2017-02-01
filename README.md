@@ -1,5 +1,5 @@
 # Login com Criptografia AES
-Script de Login com Criptografia OpenSSL com AES e Bin2Hex
+Script de Login com Criptografia **OpenSSL** com **AES** e **Bin2Hex**
 
 ## Cuidados a serem tomados
 Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para decodificar os dados, caso necessário modifique posteriormente somente por segurança.
@@ -10,7 +10,7 @@ Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para de
 ```
 
 ## Modo SSL e Non-SSL
-O script esta programado para setar cookie em SSL, então como faço pra colocar ele em Non-SSL, quando não tenho um `https://` no meu domínio?
+O script esta programado para setar cookie em _**SSL**_, então como faço pra colocar ele em Non-SSL, quando não tenho um `https://` no meu domínio?
 Simples, basta mudar o penúltimo valor da função `setcookie` para `0` no arquivo `login.php`.
 
 Modo SSL:
