@@ -24,7 +24,7 @@ Modo Non-SSL:
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 0, 1);
 ```
 
-## Arquivo Gerais
+## Arquivos
 * libraries/config.php ([Código-Fonte](libraries/config.php))
 * libraries/class.php ([Código-Fonte](libraries/class.php))
 * login.php ([Código-Fonte](login.php))
