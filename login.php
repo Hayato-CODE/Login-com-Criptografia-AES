@@ -1,7 +1,7 @@
 <?php
 /* Includes Necessario */
-include('config.php');
-include('class.php');
+include('libraries/config.php');
+include('libraries/class.php');
 
 /* Checagem de Conexão MySQLi */
 if (mysqli_connect_errno()) {
