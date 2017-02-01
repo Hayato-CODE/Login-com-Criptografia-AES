@@ -5,3 +5,4 @@ class Config {
 	public $Crypt_IV			= '65SAF4156SAD165F'; //Altere mas mantenha 16 caracteres
 }
 $Config = new Config();
+$MySQLi = new mysqli("localhost", "my_user", "my_password", "world");
