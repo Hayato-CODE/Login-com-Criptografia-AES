@@ -12,6 +12,8 @@ class Crypt {
 		return $return;
 	}
 }
+$Crypt = new Crypt();
+
 class SQL {
 	public function Injection($data){
 		$data_Array = array(
