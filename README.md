@@ -5,10 +5,10 @@ Login com Criptografia OpenSSL com AES
 `<input type="hidden" name="inputFORM" value="LoginSQL">`
 
 ## Arquivo Gerais
-- [x] config.php [Arquivo](config.php)
-- [x] class.php [Arquivo](class.php)
-- [x] check_login.php [Arquivo](check_login.php)
-- [x] read_cookie.php [Arquivo](read_cookie.php)
+- [x] libraries/config.php [Arquivo](libraries/config.php)
+- [x] libraries/class.php [Arquivo](libraries/class.php)
+- [x] check_login.php [Arquivo](login.php)
+- [x] read_cookie.php [Arquivo](cookie.php)
 
 #### Colaboradores
 Criado por Hayato
