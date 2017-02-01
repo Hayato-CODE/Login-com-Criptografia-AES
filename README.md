@@ -6,6 +6,18 @@ Login com Criptografia OpenSSL com AES
 <input type="hidden" name="inputFORM" value="LoginSQL">
 ```
 
+## Modo SSL e Non-SSL
+O script esta programado para setar cookie em SSL, então como faço pra colocar ele em Non-SSL, quando não tenho um HTTPS:// no meu domínio?
+Simples, basta mudar o penultimo valor da função `setcookie` para `0`.
+// Modo SSL
+```php
+setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 1, 1);
+```
+// Modo Non-SSL
+```php
+setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 0, 1);
+```
+
 ## Arquivo Gerais
 * libraries/config.php ([Código-Fonte](libraries/config.php))
 * libraries/class.php ([Código-Fonte](libraries/class.php))
