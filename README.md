@@ -13,6 +13,7 @@ Modo SSL:
 ```php
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 1, 1);
 ```
+
 Modo Non-SSL:
 ```php
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 0, 1);
