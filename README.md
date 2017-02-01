@@ -1,5 +1,5 @@
 # Login com Criptografia AES
-Script Login com Criptografia OpenSSL com AES e Bin2Hex
+Script de Login com Criptografia OpenSSL com AES e Bin2Hex
 
 ## Cuidados a serem tomados
 Quando colocar uma chave, que seja uma fixa, pois a mesma chave é usada para decodificar os dados, caso necessário modifique posteriormente somente por segurança.
