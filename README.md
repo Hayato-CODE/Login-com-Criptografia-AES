@@ -13,12 +13,14 @@ Simples, basta mudar o penultimo valor da função `setcookie` para `0` no arqui
 Modo SSL:
 
 ```php
+<?php
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 1, 1);
 ```
 
 Modo Non-SSL:
 
 ```php
+<?php
 setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 0, 1);
 ```
 
