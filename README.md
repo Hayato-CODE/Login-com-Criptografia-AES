@@ -34,7 +34,7 @@ setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $
 * cookie.php ([Código-Fonte](cookie.php))
 
 ## Download
-Login-com-Criptografia-AES-0.17.201.zip ([Baixar](https://github.com/hayato-code/Login-com-Criptografia-AES/releases/download/0.17.201/Login-com-Criptografia-AES-0.17.201.zip))
+Login-com-Criptografia-AES-0.17.201.zip ([Baixar](https://github.com/kazuhabr/Login-com-Criptografia-AES/releases/download/0.17.201/Login-com-Criptografia-AES-0.17.201.zip))
 
 ## Colaboradores
-Criado por **Hayato** ([Twitter](https://twitter.com/hayato_code))
+Criado por **Hayato** ([Twitter](https://twitter.com/kazuhabr))
