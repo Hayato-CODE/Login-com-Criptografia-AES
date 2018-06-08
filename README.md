@@ -37,4 +37,4 @@ setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $
 Login-com-Criptografia-AES-0.17.201.zip ([Baixar](https://github.com/kazuhabr/Login-com-Criptografia-AES/releases/download/0.17.201/Login-com-Criptografia-AES-0.17.201.zip))
 
 ## Colaboradores
-Criado por **Hayato** ([Twitter](https://twitter.com/kazuhabr))
+Criado por **Kazuha** ([Twitter](https://twitter.com/kazuhabr))
