@@ -4,6 +4,7 @@
  */
 class config {
 	public $domain		= 'dominio.com'; //Altere para o seu domínio sem www.
+	public $ssl			= 1;
 	public $crypt_method	= 'AES-256-CBC';
 	public $crypt_key	= 'AES|NOMEDACHAVE'; //Altere o 'NOMEDACHAVE'
 	public $crypt_iv	= '65SAF4156SAD165F'; //Altere mas mantenha 16 caracteres
