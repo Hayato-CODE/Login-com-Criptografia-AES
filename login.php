@@ -24,7 +24,7 @@ if (isset($_POST)) {
 			$password_result = $mysqli->query($password_query);
 			$password_row = $password_result->fetch_array(MYSQLI_ASSOC);
 			if ($password_row > 0) {
-				setcookie('account', $crypt->aes($username, true), strtotime('+1 mouth'), '/', $config->domain, 1, 1);
+				setcookie('account', $crypt->aes($username, true), strtotime('+1 mouth'), '/', $config->domain, 1, $config->ssl);
 				header('Location: /');
 			} else {
 				$error_password = true;
