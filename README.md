@@ -11,20 +11,24 @@ Script de Login com Criptografia **OpenSSL** com **AES** e **Bin2Hex**
 
 ## Modo SSL e Non-SSL
 O script esta programado para setar cookie em _**SSL**_, então como faço pra colocar ele em _**Non-SSL**_, quando não tenho um `https://` no meu domínio?
-Simples, basta mudar o penúltimo valor da função `setcookie` para `0` no arquivo `login.php`.
+Simples, basta mudar o valor da chave `SSL` para `0` no arquivo `libraries/config.php`.
 
 Modo SSL:
 
 ```php
 <?php
-setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 1, 1);
+class config {
+	public $ssl			= 1;
+}
 ```
 
 Modo Non-SSL:
 
 ```php
 <?php
-setcookie('Account', $Crypt->AES($Username, true), strtotime('+1 mouth'), '/', $Config->Domain, 0, 1);
+class config {
+	public $ssl			= 0;
+}
 ```
 
 ## Arquivos
