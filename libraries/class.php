@@ -23,9 +23,17 @@ class sql {
 		$data = addslashes($data);
 		$replace = array(
 			'SELECT' => '',
+			'select' => '',
 			'UPDATE' => '',
+			'update' => '',
 			'INSERT' => '',
-			'DROP' => ''
+			'insert' => '',
+			'DELETE' => '',
+			'delete' => '',
+			'DROP' => '',
+			'drop' => '',
+			'TABLES => '',
+			'tables' => ''
 		);
 		$return = str_replace(array_keys($replace), $replace, $data);
 		return $return;
